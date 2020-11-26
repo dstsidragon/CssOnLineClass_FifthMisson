@@ -8320,6 +8320,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.page-link .active {
+  background-color: #2A8356; }
+
 ol, ul {
   list-style: none; }
 
@@ -8349,16 +8352,24 @@ img {
   height: auto; }
 
 a {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  color: #000; }
 
 body {
+  color: #000;
   font-family: Lato, sans-serif !important;
   font-size: 16px;
   line-height: 1.5;
   font-weight: bold; }
 
+.fz-12 {
+  font-size: 12px; }
+
 .fz-14 {
   font-size: 14px; }
+
+.fz-24 {
+  font-size: 24px; }
 
 .c-darkGreen {
   color: #2A8356; }
@@ -8369,15 +8380,33 @@ body {
 .c-lightGray {
   color: #0000009A; }
 
+.c-gray {
+  color: #707070; }
+
 .ta-left {
   -moz-text-align-last: left;
        text-align-last: left; }
 
+.ml-1 {
+  margin-left: 8px !important; }
+
 .ml-2 {
   margin-left: 16px !important; }
 
+.ml-3 {
+  margin-left: 24px !important; }
+
+.ml-8 {
+  margin-left: 48px !important; }
+
 .ml-32 {
   margin-left: 256px; }
+
+.mb-1 {
+  margin-bottom: 8px !important; }
+
+.mb-2 {
+  margin-bottom: 16px !important; }
 
 .mb-4 {
   margin-bottom: 32px !important; }
@@ -8388,14 +8417,45 @@ body {
 .mr-2 {
   margin-right: 16px !important; }
 
+.pt-1 {
+  padding-top: 8px !important; }
+
 .pt-4 {
   padding-top: 32px !important; }
+
+.pl-4 {
+  padding-left: 32px !important; }
+
+.pb-1 {
+  padding-bottom: 8px !important; }
 
 .pb-4 {
   padding-bottom: 32px !important; }
 
-.pl-4 {
-  padding-left: 32px !important; }
+.bd-1 {
+  border-width: 1px  !important; }
+
+.bd-left-1 {
+  border-left: 1px  !important; }
+
+.bd-left-4 {
+  border-left: 4px  !important; }
+
+.bd-solid {
+  border-style: solid  !important; }
+
+.bd-color-transparent {
+  border-color: transparent; }
+
+.bd-color-primary {
+  border-color: #EDF4EE !important; }
+
+.bd-color-secondary {
+  border-color: #2A8356 !important; }
+
+.bd-sizing {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .sidebar {
   width: 250px;
@@ -8413,8 +8473,14 @@ body {
   border-left: 4px solid #2A8356 !important; }
 
 .sidebar-item .active {
-  color: #2A8356 !important;
-  background-color: transparent !important;
   border-left: 4px solid #2A8356 !important; }
+
+.down {
+  width: 12px;
+  height: 12px;
+  color: green; }
+
+.page-link:active, .page-link:hover, .page-link .active {
+  background-color: #2A8356; }
 
 /*# sourceMappingURL=all.css.map */

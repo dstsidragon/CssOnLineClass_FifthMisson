@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="">
+    <div >
     
       <div class="sidebar pt-4 pb-4  bg-primary position-fixed d-flex flex-column  justify-content-between  ">
         <div class="sidebar-content">
@@ -21,44 +21,44 @@
               <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg">
             </a>
           </h1>
-          <ul class="sidebar-item" id="list-tab" role="tablist">
-            <li class="mb-4 ">
-              <a class=" d-flex c-dark   bg-primary pl-4" id="list-Dashboard-list" data-toggle="list" href="#list-Dashboard" role="tab" aria-controls="Dashboard">
+          <ul class="sidebar-item list-group" id="list-tab" role="tablist">
+            <li class="mb-2 ">
+              <a class=" d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary pl-4 pt-1 pb-1 " id="list-Dashboard-list" data-toggle="list" href="#list-Dashboard" role="tab" aria-controls="Dashboard">
                 <span class="material-icons mr-2">
                 insert_chart
                 </span>
                 Dashboard</a>
             </li>
-            <li class="mb-4 ">
-              <a class=" d-flex c-dark  bg-primary pl-4" id="list-Question-list" data-toggle="list" href="#list-Question" role="tab" aria-controls="Question">
+            <li class="mb-2 ">
+              <a class=" d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary pl-4 pt-1 pb-1 " id="list-Question-list" data-toggle="list" href="#list-Question" role="tab" aria-controls="Question">
                 <span class="material-icons mr-2">
                 forum
                 </span>
                 Question</a>
             </li>
-            <li class="mb-4" >
-              <a  class=" active d-flex c-dark  bg-primary pl-4" id="list-Assignment-list active"  data-toggle="list" href="#list-Assignment" role="tab" aria-controls="Assignment">
+            <li class="mb-2" >
+              <a  class=" active d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary pl-4 pt-1 pb-1 " id="list-Assignment-list active"  data-toggle="list" href="#list-Assignment" role="tab" aria-controls="Assignment">
                 <span class="material-icons mr-2">
                 assignment
                 </span>
                 Assignment</a>
             </li>
-            <li class="mb-4">
-              <a class=" d-flex c-dark  bg-primary pl-4" id="list-Course-list" data-toggle="list" href="#list-Course" role="tab" aria-controls="Course">
+            <li class="mb-2">
+              <a class=" d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary pl-4 pt-1 pb-1 " id="list-Course-list" data-toggle="list" href="#list-Course" role="tab" aria-controls="Course">
                 <span class="material-icons mr-2">
                 video_library
                 </span>
                 Course</a>
             </li>
-            <li class="mb-4">
-              <a class=" d-flex c-dark  bg-primary pl-4" id="list-Admin-list" data-toggle="list" href="#list-Admin" role="tab" aria-controls="Admin">
+            <li class="mb-2">
+              <a class=" d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary pl-4 pt-1 pb-1 " id="list-Admin-list" data-toggle="list" href="#list-Admin" role="tab" aria-controls="Admin">
                 <span class="material-icons mr-2">
                 supervisor_account
                 </span>
                 Admin</a>
             </li>
-            <li class="mb-4">
-              <a class=" d-flex c-dark  bg-primary pl-4" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
+            <li class="mb-2">
+              <a class="d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary pl-4 pt-1 pb-1 " id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
                 <span class="material-icons mr-2">
                 settings
                 </span>
@@ -76,18 +76,268 @@
           </ul>
         </div>
       </div>
+      <div class=" ml-32">
+      
       
 
-<div class=" ml-32">
+
   <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade " id="list-Dashboard" role="tabpanel" aria-labelledby="list-Dashboard-list">此功能建構中..</div>
-    <div class="tab-pane fade" id="list-Question" role="tabpanel" aria-labelledby="list-Question-list">此功能建構中..</div>
-    <div class="tab-pane fade show active" id="list-Assignment" role="tabpanel" aria-labelledby="list-Assignment-list">Assignment</div>
-    <div class="tab-pane fade" id="list-Course" role="tabpanel" aria-labelledby="list-Course-list">此功能建構中..</div>
-    <div class="tab-pane fade" id="list-Admin" role="tabpanel" aria-labelledby="list-Admin-list">Admin</div>
-    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">此功能建構中..</div>
+    <div class="tab-pane fade container" id="list-Dashboard" role="tabpanel" aria-labelledby="list-Dashboard-list">此功能建構中..</div>
+    <div class="tab-pane fade container" id="list-Question" role="tabpanel" aria-labelledby="list-Question-list">此功能建構中..</div>
+    <div class="tab-pane fade show active container" id="list-Assignment" role="tabpanel" aria-labelledby="list-Assignment-list">
+      <div class="assignment-menu d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center  pt-4 pb-4">
+          <h2 class="fz-24">Assignment</h2>
+          <div class="d-flex align-items-center  ml-8">
+            <p>All Courses</p>
+            <a  href="#">
+              <span class="material-icons text-secondary  ml-1">
+                expand_more
+                </span>
+            </a>
+            </div>
+        </div>
+        <div class="">
+          <a class="material-icons">
+            search
+          </a>
+          <a class="material-icons ml-3">
+              notifications_active
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mb-1">
+        <div class="d-flex">
+          <p>All(4)</p>
+          <a class="material-icons text-secondary ml-1">
+            expand_more
+          </a>
+        </div>
+        <p class="c-gray fz-12">2 comments</p>
+        </div>
+      <div class="row">
+        
+        <div class="col-4">
+          
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade container" id="list-Course" role="tabpanel" aria-labelledby="list-Course-list">此功能建構中..</div>
+    <div class="tab-pane fade container" id="list-Admin" role="tabpanel" aria-labelledby="list-Admin-list">
+      <div class="assignment-menu d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center  pt-4 pb-4">
+          <h2 class="fz-24">Admin</h2>
+          <div class="d-flex align-items-center  ml-8">
+            <a  href="#">
+              <span class="material-icons text-secondary  ">
+                add
+                </span>
+            </a>
+            <p class="ml-1">Add New Admin</p>
+            </div>
+        </div>
+        <div class="">
+          <a class="material-icons" href="#">
+            search
+          </a>
+          <a class="material-icons ml-3" href="#">
+              notifications_active
+          </a>
+        </div>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="d-flex"  scope="col">ID<a href="#" class="material-icons down ml-1">
+      arrow_downward
+            </a></th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Verified</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">#1</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+              visibility
+              </a>
+              <a href="#" class="material-icons">
+              create
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#2</th>
+            <td>Zaina Goldsmith</td>
+            <td>zaina.goldsmith@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#3</th>
+            <td>Mahima Lopez</td>
+            <td>Mahima.Lopez@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#4</th>
+            <td>Pharrell Murray</td>
+            <td>Pharrell.Murray@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#5</th>
+            <td>Annika Mcbride</td>
+            <td>Annika.Mcbride@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#6</th>
+            <td>Fatimah Clark</td>
+            <td>Fatimah.Clark@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#7</th>
+            <td>Klaudia Rhodes</td>
+            <td>Klaudia.Rhodes@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#8</th>
+            <td>Tillie Lucero</td>
+            <td>Tillie.Lucero@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#9</th>
+            <td>Sabrina Stephenson</td>
+            <td>Sabrina.Stephenson@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#10</th>
+            <td>Annie Smith</td>
+            <td>Annie.Smith@mail.com</td>
+            <td>Yes</td>
+            <td>
+              <a href="#" class="material-icons"> 
+                visibility
+                </a>
+                <a href="#" class="material-icons">
+                create
+                </a>
+            </td>
+            </tr>
+        </tbody>
+      </table>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link bd-color-secondary text-secondary" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link bd-color-secondary text-secondary" href="#">1</a></li>
+          <li class="page-item"><a class="page-link bd-color-secondary text-secondary" href="#">2</a></li>
+          <li class="page-item"><a class="page-link bd-color-secondary text-secondary" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link bd-color-secondary text-secondary" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
-</div>
+    <div class="tab-pane fade container" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">此功能建構中..</div>
+  </div>
+
+      </div>
+      
   
     </div>
   
