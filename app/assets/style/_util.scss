@@ -1,9 +1,15 @@
 
 //文字大小
+.fz-12{
+    font-size: 12px;
+}
 .fz-14{
     font-size: 14px;
 }
 
+.fz-24{
+    font-size: 24px;
+}
 //文字顏色
 .c-darkGreen{
     color: #2A8356;
@@ -14,6 +20,9 @@
 .c-lightGray{
     color: #0000009A;
 }
+.c-gray{
+    color: #707070;
+}
 
 //文字對齊
 .ta-left{
@@ -21,11 +30,23 @@
 }
 
 //外推擠
+.ml-1{
+    margin-left: 8px !important;
+}
 .ml-2{
     margin-left: 16px !important;
 }
+.ml-3{
+    margin-left: 24px !important;
+}
+.ml-8{
+    margin-left: 48px !important;
+}
 .ml-32{
     margin-left: 256px;
+}
+.mb-1{
+    margin-bottom:8px !important;
 }
 .mb-2{
     margin-bottom:16px !important;
@@ -76,6 +97,9 @@
 }
 .bd-color-primary{
     border-color:$primary !important;
+}
+.bd-color-secondary{
+    border-color:$secondary !important;
 }
 
 //盒模型

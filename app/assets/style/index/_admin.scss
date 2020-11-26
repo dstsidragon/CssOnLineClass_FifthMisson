@@ -1,0 +1,10 @@
+.down{
+    width: 12px;
+    height: 12px;
+    color:green;
+  }
+
+
+.page-link:active,.page-link:hover,.page-link .active{
+    background-color: $secondary;
+}
