@@ -27,6 +27,9 @@
 .ml-32{
     margin-left: 256px;
 }
+.mb-2{
+    margin-bottom:16px !important;
+}
 .mb-4{
     margin-bottom: 32px !important;
 }
@@ -37,12 +40,45 @@
     margin-right: 16px !important;
 }
 //內推擠
+.pt-1{
+    padding-top: 8px !important;
+}
 .pt-4{
     padding-top: 32px !important;
+}
+.pl-4{
+    padding-left: 32px !important;
+}
+.pb-1{
+    padding-bottom: 8px !important;
 }
 .pb-4{
     padding-bottom: 32px !important;
 }
-.pl-4{
-    padding-left: 32px !important;
+
+//邊線粗度
+.bd-1{
+    border-width: 1px  !important;
+}
+.bd-left-1{
+    border-left: 1px  !important;
+}
+.bd-left-4{
+    border-left: 4px  !important;
+}
+//邊框樣式
+.bd-solid{
+    border-style: solid  !important;
+}
+//邊線顏色
+.bd-color-transparent{
+    border-color:transparent;
+}
+.bd-color-primary{
+    border-color:$primary !important;
+}
+
+//盒模型
+.bd-sizing{
+    box-sizing: border-box;
 }
