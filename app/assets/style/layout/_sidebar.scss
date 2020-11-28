@@ -26,12 +26,14 @@
     border-radius: 50%;
 }
 
-.sidebar-item a:active,.sidebar-item a:hover{
+.sidebar-item a:hover{
     color:#2A8356 !important;
     background-color: transparent !important;
     border-left: 4px solid #2A8356 !important;
 
 }
 .sidebar-item  .active{
+    color:#2A8356 !important;
     border-left: 4px solid #2A8356 !important;
 }
+

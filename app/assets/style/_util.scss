@@ -6,6 +6,9 @@
 .fz-14{
     font-size: 14px;
 }
+.fz-16{
+    font-size: 16;
+}
 
 .fz-24{
     font-size: 24px;
@@ -61,6 +64,9 @@
     margin-right: 16px !important;
 }
 //內推擠
+.pd-4{
+    padding: 32px;
+}
 .pt-1{
     padding-top: 8px !important;
 }
@@ -75,6 +81,9 @@
 }
 .pb-4{
     padding-bottom: 32px !important;
+}
+.pr-4{
+    padding-right: 32px !important;
 }
 
 //邊線粗度
@@ -101,8 +110,21 @@
 .bd-color-secondary{
     border-color:$secondary !important;
 }
-
+.bd-color-success{
+    border-color:$success !important;
+}
 //盒模型
 .bd-sizing{
     box-sizing: border-box;
 }
+
+//Hover 
+.hover-success:hover{
+    border: 1px solid $success !important;
+    color:$success !important;  
+  }
+.hover-success-bgChange:hover{
+    border: 1px solid $white !important;
+    color:$white !important;  
+    background-color: $success !important;
+ }

@@ -5,6 +5,17 @@
   }
 
 
-.page-link:active,.page-link:hover,.page-link .active{
+.page-item a:active,.page-item a:hover,.page-item a .active{
     background-color: $secondary;
+    color:#FFF !important;
+}
+
+
+.modal-overhiden{
+  max-height: 576px;
+  overflow: auto;
+}
+.hover-success:hover{
+  border: 1px solid $success !important;
+  color:$success !important;  
 }
