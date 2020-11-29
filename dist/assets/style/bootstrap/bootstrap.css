@@ -4587,7 +4587,6 @@ input[type="button"].btn-block {
     background-color: #fff; }
   .list-group-item.active {
     z-index: 2;
-    color: #fff;
     background-color: #EDF4EE;
     border-color: #EDF4EE; }
   .list-group-item + .list-group-item {
