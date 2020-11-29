@@ -4582,6 +4582,7 @@ input[type="button"].btn-block {
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit; }
   .list-group-item.disabled, .list-group-item:disabled {
+    color: #6c757d;
     pointer-events: none;
     background-color: #fff; }
   .list-group-item.active {
@@ -4590,6 +4591,9 @@ input[type="button"].btn-block {
     border-color: #EDF4EE; }
   .list-group-item + .list-group-item {
     border-top-width: 0; }
+    .list-group-item + .list-group-item.active {
+      margin-top: -1px;
+      border-top-width: 1px; }
 
 .list-group-horizontal {
   -webkit-box-orient: horizontal;
