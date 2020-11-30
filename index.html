@@ -11,13 +11,12 @@
 </head>
 
 <body>
-    <div class=" " >
-    
+ 
       <div class="sidebar pt-4 pb-4 position-fixed   bg-primary  d-flex flex-column  justify-content-between  ">
         <div class="sidebar-content">
-          <h1 class="mb-4 pl-4">
-            <a href="#index.html">
-              <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg">
+          <h1 class=" mb-4 pl-4">
+            <a class="logo d-block " href="#index.html">
+              logo
             </a>
           </h1>
           <ul class="sidebar-item list-group" id="list-tab" role="tablist">
@@ -82,13 +81,53 @@
 
   <div class="tab-content" id="nav-tabContent">
     <!-- Dashboard -->
-    <div class="tab-pane fade container" id="list-Dashboard" role="tabpanel" aria-labelledby="list-Dashboard-list">此功能建構中..</div>
+    <div class="tab-pane fade container   text-center " id="list-Dashboard" role="tabpanel" aria-labelledby="list-Dashboard-list">
+      <h2 class="shadow-lg p-3 mb-5 bg-primary  rounded fz-48 ">功能建構中</h2><br>
+      <img class="img-fluid " src="https://img.ltn.com.tw/Upload/auto/page/2019/06/11/190611-12846-1-7yjXu.jpg" alt="Responsive image" ></div>
     <!-- Question -->
-    <div class="tab-pane fade container" id="list-Question" role="tabpanel" aria-labelledby="list-Question-list">此功能建構中..</div>
+    <div class="tab-pane fade container text-center" id="list-Question" role="tabpanel" aria-labelledby="list-Question-list">
+      <h2 class="shadow-lg p-3 mb-5 bg-primary  rounded fz-48 ">功能建構中</h2><br>
+      <div class=" d-flex justify-content-center">
+      <div class="spinner-border  loading-ninja  mb-30 " role="status">
+        <span class="sr-only ">Loading...</span>
+      </div>
+      </div>
+      <button type="button" class="btn btn-danger  btn-loading">付費開啟VIP加速</button>
+      <div class="loadingGroup  mb-30  d-none">
+        <h3 class="fz-24 font-weight-bold mb-3" >為您增加八倍讀取速度
+        </h3>
+        <div class="spinner-border text-primary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-secondary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-success" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-danger" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-warning" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-info" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-light" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-dark " role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      
+      <button type="button" class="btn btn-danger  d-none  btn-cancelLoading">解除八倍加速</button>
+    </div>
     <!-- Assignment -->
     <div class="tab-pane fade show active container" id="list-Assignment" role="tabpanel" aria-labelledby="list-Assignment-list">
-      <div class="assignment-menu d-flex justify-content-between align-items-center">
-        <div class="d-flex align-items-center  pt-4 pb-4">
+      <div class="assignment-menu d-sm-flex justify-content-between align-items-center">
+        <div class="d-md-flex align-items-center  pt-4 pb-4">
           <h2 class="fz-24">Assignment</h2>
           <div class="d-flex align-items-center  ml-8">
             <p>All Courses</p>
@@ -119,7 +158,7 @@
         </div>
       <div class="row">
         
-        <div class="col-5">
+        <div class="col-lg-5 col-12 ">
           
           <div class="list-group Assignment " id="list-tab" role="tablist">
             <a class="list-group-item list-group-item-action active-primary active bd-1 bd-solid bd-color-primary" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
@@ -172,7 +211,7 @@
             </a>
           </div>
         </div>
-        <div class="col-7">
+        <div class="col-lg-7 col-12">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
               <div class="messageContent bd-1 bd-solid  bd-color-primary mb-2">
@@ -238,8 +277,8 @@
                <!-- 摺疊視窗 -->
                <div class="collapse position-absolute " id="collapseExample">
                 
-                <ul class="d-flex justify-content-around align-items-center bg-primary pt-2 pb-2 pl-3 pr-3 bd-1 bd-solid bd-color-primary">
-                    <li class="mr-3 ">
+                <ul class="d-flex justify-content-between align-items-center bg-primary pt-2 pb-2 pl-3 pr-3 bd-1 bd-solid bd-color-primary">
+                  <li>
                       <div class="dropdown ">
                         <button class="btn btn-primary dropdown-toggle font-weight-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Body Text
@@ -255,37 +294,37 @@
                         </div>
                       </div>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_bold</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_italic</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_list_bulleted</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_list_numbered</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">insert_photo</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">insert_link</span>
                       </a>
                     </li>
-                    <li class="">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">code</span>
                       </a>
@@ -307,7 +346,7 @@
                 </div>
               </div>
               <div class="replyMenu">
-                <ul class="d-flex justify-content-between align-items-center">
+                <ul class="d-md-flex text-center justify-content-between align-items-center">
                   <li>
                     <a href="#" class="material-icons">
                     chevron_left
@@ -388,8 +427,8 @@
                <!-- 摺疊視窗 -->
                <div class="collapse position-absolute " id="collapseExample2">
                 
-                <ul class="d-flex justify-content-around align-items-center bg-primary pt-2 pb-2 pl-3 pr-3 bd-1 bd-solid bd-color-primary">
-                    <li class="mr-3 ">
+                <ul class="d-flex justify-content-between align-items-center bg-primary pt-2 pb-2 pl-3 pr-3 bd-1 bd-solid bd-color-primary">
+                  <li>
                       <div class="dropdown ">
                         <button class="btn btn-primary dropdown-toggle font-weight-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Body Text
@@ -405,37 +444,37 @@
                         </div>
                       </div>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_bold</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_italic</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_list_bulleted</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_list_numbered</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">insert_photo</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">insert_link</span>
                       </a>
                     </li>
-                    <li class="">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">code</span>
                       </a>
@@ -457,7 +496,7 @@
                 </div>
               </div>
               <div class="replyMenu">
-                <ul class="d-flex justify-content-between align-items-center">
+                <ul class="d-md-flex text-center  justify-content-between align-items-center">
                   <li>
                     <a href="#" class="material-icons">
                     chevron_left
@@ -528,8 +567,8 @@
                <!-- 摺疊視窗 -->
                <div class="collapse position-absolute " id="collapseExample3">
                 
-                <ul class="d-flex justify-content-around align-items-center bg-primary pt-2 pb-2 pl-3 pr-3 bd-1 bd-solid bd-color-primary">
-                    <li class="mr-3 ">
+                <ul class="d-flex justify-content-between align-items-center bg-primary pt-2 pb-2 pl-3 pr-3 bd-1 bd-solid bd-color-primary">
+                  <li>
                       <div class="dropdown ">
                         <button class="btn btn-primary dropdown-toggle font-weight-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Body Text
@@ -545,32 +584,32 @@
                         </div>
                       </div>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_bold</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_italic</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_list_bulleted</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_list_numbered</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">insert_photo</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">insert_link</span>
                       </a>
@@ -597,7 +636,7 @@
                 </div>
               </div>
               <div class="replyMenu">
-                <ul class="d-flex justify-content-between align-items-center">
+                <ul class="d-md-flex text-center  justify-content-between align-items-center">
                   <li>
                     <a href="#" class="material-icons">
                     chevron_left
@@ -664,8 +703,8 @@
                <!-- 摺疊視窗 -->
                <div class="collapse position-absolute " id="collapseExample4">
                 
-                <ul class="d-flex justify-content-around align-items-center bg-primary pt-2 pb-2 pl-3 pr-3 bd-1 bd-solid bd-color-primary">
-                    <li class="mr-3 ">
+                <ul class="d-flex justify-content-between align-items-center bg-primary pt-2 pb-2 pl-3 pr-3 bd-1 bd-solid bd-color-primary">
+                    <li >
                       <div class="dropdown ">
                         <button class="btn btn-primary dropdown-toggle font-weight-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Body Text
@@ -681,37 +720,37 @@
                         </div>
                       </div>
                     </li>
-                    <li class="mr-3">
+                    <li >
                       <a href="#" class="">
                         <span class="material-icons">format_bold</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_italic</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li >
                       <a href="#" class="">
                         <span class="material-icons">format_list_bulleted</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">format_list_numbered</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">insert_photo</span>
                       </a>
                     </li>
-                    <li class="mr-3">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">insert_link</span>
                       </a>
                     </li>
-                    <li class="">
+                    <li>
                       <a href="#" class="">
                         <span class="material-icons">code</span>
                       </a>
@@ -733,7 +772,7 @@
                 </div>
               </div>
               <div class="replyMenu">
-                <ul class="d-flex justify-content-between align-items-center">
+                <ul class="d-md-flex text-center justify-content-between align-items-center">
                   <li>
                     <a href="#" class="material-icons">
                     chevron_left
@@ -756,7 +795,12 @@
       </div>
     </div>
     <!-- Course -->
-    <div class="tab-pane fade container" id="list-Course" role="tabpanel" aria-labelledby="list-Course-list">此功能建構中..</div>
+    <div class="tab-pane fade container text-center" id="list-Course" role="tabpanel" aria-labelledby="list-Course-list">
+      <h2 class="shadow-lg p-3 mb-5 bg-primary  rounded fz-48 ">功能建構中</h2><br>
+      <div class="spinner-border " role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
     <!-- admin -->
     <div class="tab-pane fade container" id="list-Admin" role="tabpanel" aria-labelledby="list-Admin-list">
       <div class="assignment-menu d-flex justify-content-between align-items-center">
@@ -918,19 +962,30 @@
             <!-- Modal -->
             <div class="modal fade" id="Admin1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    ...
+                <div class="modal-content ">
+                  
+                  <div class="modal-header row mg-0 pd-4">
+                    <img class=" img-fluid col-6" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true" >
+                    <ul class=" col-6">
+                      <li class=" d-flex  justify-content-between align-items-center">
+                        <p>#1</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                       </button>
+                      </li>
+                      <li>Admin</li>
+                      <li class="fz-24">Emir Wicks</li>
+                      <li class="c-lightGray">emir.wicks@mail.com</li>
+                      <li class="d-flex justify-content-between align-items-center">
+                        <span class="bg-primary"> verified</span>
+                        <a href="#" class="material-icons text-secondary">
+                        keyboard_arrow_up
+                        </a></li>
+                    </ul>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn bg-white bd-color-success text-success font-weight-bold pt-1 pb-1 pl-4 pr-4 hover-success-bgChange" data-dismiss="modal">Deactivate</button>
+                    <button type="button" class="btn btn-secondary font-weight-bold pt-1 pb-1 pl-4 pr-4">Edit</button>
                   </div>
                 </div>
               </div>
@@ -942,13 +997,45 @@
             <td>zaina.goldsmith@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
                 create
                 </a>
             </td>
+             <!-- Modal -->
+             <div class="modal fade" id="Admin1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content ">
+                  
+                  <div class="modal-header row mg-0 pd-4">
+                    <img class=" img-fluid col-6" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true" >
+                    <ul class=" col-6">
+                      <li class=" d-flex  justify-content-between align-items-center">
+                        <p>#1</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                       </button>
+                      </li>
+                      <li>Admin</li>
+                      <li class="fz-24">Emir Wicks</li>
+                      <li class="c-lightGray">emir.wicks@mail.com</li>
+                      <li class="d-flex justify-content-between align-items-center">
+                        <span class="bg-primary"> verified</span>
+                        <a href="#" class="material-icons text-secondary">
+                        keyboard_arrow_up
+                        </a></li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn bg-white bd-color-success text-success font-weight-bold pt-1 pb-1 pl-4 pr-4 hover-success-bgChange" data-dismiss="modal">Deactivate</button>
+                    <button type="button" class="btn btn-secondary font-weight-bold pt-1 pb-1 pl-4 pr-4">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </tr>
           <tr>
             <th scope="row">#3</th>
@@ -956,7 +1043,8 @@
             <td>Mahima.Lopez@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
@@ -970,7 +1058,8 @@
             <td>Pharrell.Murray@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
@@ -984,7 +1073,8 @@
             <td>Annika.Mcbride@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
@@ -998,7 +1088,8 @@
             <td>Fatimah.Clark@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
@@ -1012,7 +1103,8 @@
             <td>Klaudia.Rhodes@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
@@ -1026,7 +1118,8 @@
             <td>Tillie.Lucero@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
@@ -1040,7 +1133,8 @@
             <td>Sabrina.Stephenson@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
@@ -1054,7 +1148,8 @@
             <td>Annie.Smith@mail.com</td>
             <td>Yes</td>
             <td class="d-flex justify-content-between">
-              <a href="#" class="material-icons"> 
+              <!-- Button trigger modal -->
+              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
                 visibility
                 </a>
                 <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
@@ -1209,14 +1304,14 @@
     </div>
     </div>
     <!-- settings -->
-    <div class="tab-pane fade container" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">此功能建構中..</div>
+    <div class="tab-pane fade container text-center" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+      <h2 class="shadow-lg p-3 mb-5 bg-primary  rounded fz-48 ">功能建構中..</h2><br>
+    </div>
   </div>
 
       </div>
       
-  
-    </div>
-  
+
 
 
   
