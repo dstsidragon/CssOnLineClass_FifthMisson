@@ -15,6 +15,9 @@
 .fz-24{
     font-size: 24px;
 }
+.fz-48{
+    font-size: 48px;
+}
 //文字顏色
 .c-darkGreen{
     color: #2A8356;
@@ -35,8 +38,14 @@
 .ta-left{
     text-align-last: left;
 }
+.m0-a{
+    margin: 0 auto;
+}
 
 //外推擠
+.mg-0{
+    margin: 0;
+}
 .ml-1{
     margin-left: 8px !important;
 }
@@ -60,6 +69,9 @@
 }
 .mb-4{
     margin-bottom: 32px !important;
+}
+.mb-30{
+    margin-bottom: 240px;
 }
 .mb-41{
     margin-bottom: 328px;

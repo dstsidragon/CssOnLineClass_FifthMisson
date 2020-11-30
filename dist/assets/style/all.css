@@ -8376,6 +8376,9 @@ body {
 .fz-24 {
   font-size: 24px; }
 
+.fz-48 {
+  font-size: 48px; }
+
 .c-darkGreen {
   color: #2A8356; }
 
@@ -8394,6 +8397,12 @@ body {
 .ta-left {
   -moz-text-align-last: left;
        text-align-last: left; }
+
+.m0-a {
+  margin: 0 auto; }
+
+.mg-0 {
+  margin: 0; }
 
 .ml-1 {
   margin-left: 8px !important; }
@@ -8418,6 +8427,9 @@ body {
 
 .mb-4 {
   margin-bottom: 32px !important; }
+
+.mb-30 {
+  margin-bottom: 240px; }
 
 .mb-41 {
   margin-bottom: 328px; }
@@ -8528,6 +8540,14 @@ body {
   border: 1px solid #fff !important;
   background-color: #EDF4EE !important;
   color: #000 !important; }
+
+.logo {
+  background: center center no-repeat url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg);
+  width: 70%;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap; }
 
 .sidebar {
   min-width: 250px;
