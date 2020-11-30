@@ -8567,6 +8567,31 @@ body {
   color: #2A8356 !important;
   border-left: 4px solid #2A8356 !important; }
 
+@media (min-width: 570px) {
+  .Main {
+    margin-left: 256px !important; }
+  .sidebar {
+    position: fixed; } }
+
+@media (max-width: 570px) {
+  .sidebar {
+    display: none !important; } }
+
+.navbarLogo {
+  background: center center no-repeat url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg);
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap; }
+
+@media (max-width: 570px) {
+  .navbar {
+    display: block !important; }
+  .menuTitle {
+    margin-left: 0 !important; } }
+
 .down {
   width: 12px;
   height: 12px;
@@ -8583,6 +8608,12 @@ body {
 .hover-success:hover {
   border: 1px solid #E3006E !important;
   color: #E3006E !important; }
+
+@media (max-width: 576px) {
+  .table-mobile {
+    width: 100% !important;
+    margin: 0 auto !important;
+    overflow: auto !important; } }
 
 .Largehead {
   width: 40px;
