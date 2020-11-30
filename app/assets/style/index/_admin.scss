@@ -19,3 +19,11 @@
   border: 1px solid $success !important;
   color:$success !important;  
 }
+
+@media (max-width:576px){
+  .table-mobile{
+    width: 100% !important;
+    margin: 0 auto !important; 
+    overflow: auto !important;
+  }
+}

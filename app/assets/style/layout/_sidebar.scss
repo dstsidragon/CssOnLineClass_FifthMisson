@@ -45,3 +45,19 @@
     }
     
 } 
+
+@media(min-width:570px){
+    .Main{
+        margin-left: 256px !important;
+    }
+    .sidebar{
+        position: fixed;
+    }
+    
+}
+@media(max-width:570px){
+    .sidebar{
+        display: none !important;
+    }
+
+}

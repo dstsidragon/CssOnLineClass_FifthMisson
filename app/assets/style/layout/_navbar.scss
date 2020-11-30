@@ -1,0 +1,21 @@
+.navbarLogo{
+    background:center center no-repeat url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg);
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+@media(max-width:570px){
+    .navbar{
+        display:block !important;
+    }
+    .menuTitle{
+        margin-left: 0 !important;
+    }
+
+}

@@ -54,10 +54,10 @@ current: index
     </div>
     <!-- Assignment -->
     <div class="tab-pane fade show active container" id="list-Assignment" role="tabpanel" aria-labelledby="list-Assignment-list">
-      <div class="assignment-menu d-sm-flex justify-content-between align-items-center">
-        <div class="d-md-flex align-items-center  pt-4 pb-4">
-          <h2 class="fz-24">Assignment</h2>
-          <div class="d-flex align-items-center  ml-8">
+      <div class="assignment-menu d-md-flex justify-content-md-between align-items-center">
+        <div class="d-md-flex justify-content-center align-items-center  pt-4 pb-4">
+          <h2 class="fz-24 text-center">Assignment</h2>
+          <div class="menuTitle d-flex justify-content-center align-items-center  ml-8">
             <p>All Courses</p>
             <a  href="#">
               <span class="material-icons text-secondary  ml-1">
@@ -66,7 +66,7 @@ current: index
             </a>
             </div>
         </div>
-        <div class="">
+        <div class="d-flex justify-content-center">
           <a class="material-icons">
             search
           </a>
@@ -284,7 +284,7 @@ current: index
                   </a>
                   </li>
                   <li >
-                    <a class="btn  bg-white text-secondary bd-1 bd-solid bd-color-secondary font-weight-bold pl-4 pr-4" href="#">Mark as read</a>
+                    <a class="maskAsRead  btn  bg-white text-secondary bd-1 bd-solid bd-color-secondary font-weight-bold pl-4 pr-4" href="#">Mark as read</a>
                     <a class="btn text-white bg-secondary font-weight-bold pl-4 pr-4 ml-2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Reply</a>
                     
                   </li>
@@ -434,7 +434,7 @@ current: index
                   </a>
                   </li>
                   <li >
-                    <a class="btn  bg-white text-secondary bd-1 bd-solid bd-color-secondary font-weight-bold pl-4 pr-4" href="#">Mark as read</a>
+                    <a class="maskAsRead btn  bg-white text-secondary bd-1 bd-solid bd-color-secondary font-weight-bold pl-4 pr-4" href="#">Mark as read</a>
                     <a class="btn text-white bg-secondary font-weight-bold pl-4 pr-4 ml-2" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">Reply</a>
                     
                   </li>
@@ -574,7 +574,7 @@ current: index
                   </a>
                   </li>
                   <li >
-                    <a class="btn  bg-white text-secondary bd-1 bd-solid bd-color-secondary font-weight-bold pl-4 pr-4" href="#">Mark as read</a>
+                    <a class="maskAsRead btn  bg-white text-secondary bd-1 bd-solid bd-color-secondary font-weight-bold pl-4 pr-4" href="#">Mark as read</a>
                     <a class="btn text-white bg-secondary font-weight-bold pl-4 pr-4 ml-2" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">Reply</a>
                     
                   </li>
@@ -710,7 +710,7 @@ current: index
                   </a>
                   </li>
                   <li >
-                    <a class="btn  bg-white text-secondary bd-1 bd-solid bd-color-secondary font-weight-bold pl-4 pr-4" href="#">Mark as read</a>
+                    <a class="maskAsRead btn   bg-white text-secondary bd-1 bd-solid bd-color-secondary font-weight-bold pl-4 pr-4" href="#">Mark as read</a>
                     <a class="btn text-white bg-secondary font-weight-bold pl-4 pr-4 ml-2" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">Reply</a>
                     
                   </li>
@@ -730,12 +730,12 @@ current: index
       </div>
     </div>
     <!-- admin -->
-    <div class="tab-pane fade container" id="list-Admin" role="tabpanel" aria-labelledby="list-Admin-list">
-      <div class="assignment-menu d-flex justify-content-between align-items-center">
-        <div class="d-flex align-items-center  pt-4 pb-4">
-          <h2 class="fz-24">Admin</h2>
+    <div class="tab-pane fade container container-sm" id="list-Admin" role="tabpanel" aria-labelledby="list-Admin-list">
+      <div class="assignment-menu d-md-flex justify-content-md-between align-items-center">
+        <div class="text-center d-md-flex   justify-content-md-center align-items-center  pt-4 pb-4">
+          <h2 class="fz-24  ">Admin</h2>
             <!-- Button trigger modal -->
-            <a class="d-flex align-items-center  ml-8" data-toggle="modal" data-target="#AddAdmin" href="#">
+            <a class="menuTitle d-flex justify-content-center ml-8  align-items-center " data-toggle="modal" data-target="#AddAdmin" href="#">
               <span class="material-icons text-secondary  ">
                 add
                 </span>
@@ -850,7 +850,7 @@ current: index
       </div>
 
 
-        <div>
+        <div class="d-flex justify-content-center mb-2">
           <a class="material-icons" href="#">
             search
           </a>
@@ -860,233 +860,236 @@ current: index
               
         </div>
       </div>
-      <table class="table">
-        <thead>
-          <tr>
-            <th class="d-flex"  scope="col">ID<a href="#" class="material-icons down ml-1">
-      arrow_downward
-            </a></th>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Verified</th>
-            <th scope="col"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">#1</th>
-            <td>Emir Wicks</td>
-            <td>emir.wicks@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-              visibility
-              </a>
-              <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-              create
-              </a>
-            </td>
-            <!-- Modal -->
-            <div class="modal fade" id="Admin1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content ">
-                  
-                  <div class="modal-header row mg-0 pd-4">
-                    <img class=" img-fluid col-6" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true" >
-                    <ul class=" col-6">
-                      <li class=" d-flex  justify-content-between align-items-center">
-                        <p>#1</p>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                       </button>
-                      </li>
-                      <li>Admin</li>
-                      <li class="fz-24">Emir Wicks</li>
-                      <li class="c-lightGray">emir.wicks@mail.com</li>
-                      <li class="d-flex justify-content-between align-items-center">
-                        <span class="bg-primary"> verified</span>
-                        <a href="#" class="material-icons text-secondary">
-                        keyboard_arrow_up
-                        </a></li>
-                    </ul>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn bg-white bd-color-success text-success font-weight-bold pt-1 pb-1 pl-4 pr-4 hover-success-bgChange" data-dismiss="modal">Deactivate</button>
-                    <button type="button" class="btn btn-secondary font-weight-bold pt-1 pb-1 pl-4 pr-4">Edit</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </tr>
-          <tr>
-            <th scope="row">#2</th>
-            <td>Zaina Goldsmith</td>
-            <td>zaina.goldsmith@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
-             <!-- Modal -->
-             <div class="modal fade" id="Admin1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content ">
-                  
-                  <div class="modal-header row mg-0 pd-4">
-                    <img class=" img-fluid col-6" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true" >
-                    <ul class=" col-6">
-                      <li class=" d-flex  justify-content-between align-items-center">
-                        <p>#1</p>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                       </button>
-                      </li>
-                      <li>Admin</li>
-                      <li class="fz-24">Emir Wicks</li>
-                      <li class="c-lightGray">emir.wicks@mail.com</li>
-                      <li class="d-flex justify-content-between align-items-center">
-                        <span class="bg-primary"> verified</span>
-                        <a href="#" class="material-icons text-secondary">
-                        keyboard_arrow_up
-                        </a></li>
-                    </ul>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn bg-white bd-color-success text-success font-weight-bold pt-1 pb-1 pl-4 pr-4 hover-success-bgChange" data-dismiss="modal">Deactivate</button>
-                    <button type="button" class="btn btn-secondary font-weight-bold pt-1 pb-1 pl-4 pr-4">Edit</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </tr>
-          <tr>
-            <th scope="row">#3</th>
-            <td>Mahima Lopez</td>
-            <td>Mahima.Lopez@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">#4</th>
-            <td>Pharrell Murray</td>
-            <td>Pharrell.Murray@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">#5</th>
-            <td>Annika Mcbride</td>
-            <td>Annika.Mcbride@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">#6</th>
-            <td>Fatimah Clark</td>
-            <td>Fatimah.Clark@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">#7</th>
-            <td>Klaudia Rhodes</td>
-            <td>Klaudia.Rhodes@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">#8</th>
-            <td>Tillie Lucero</td>
-            <td>Tillie.Lucero@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">#9</th>
-            <td>Sabrina Stephenson</td>
-            <td>Sabrina.Stephenson@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">#10</th>
-            <td>Annie Smith</td>
-            <td>Annie.Smith@mail.com</td>
-            <td>Yes</td>
-            <td class="d-flex justify-content-between">
-              <!-- Button trigger modal -->
-              <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
-                visibility
-                </a>
-                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
-                create
-                </a>
-            </td>
+      <div class="table-mobile">
+        <table class="table  ">
+          <thead>
+            <tr>
+              <th class="d-flex"  scope="col">ID<a href="#" class="material-icons down ml-1">
+        arrow_downward
+              </a></th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Verified</th>
+              <th scope="col"></th>
             </tr>
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">#1</th>
+              <td>Emir Wicks</td>
+              <td>emir.wicks@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                visibility
+                </a>
+                <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                create
+                </a>
+              </td>
+              <!-- Modal -->
+              <div class="modal fade" id="Admin1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content ">
+                    
+                    <div class="modal-header row mg-0 pd-4">
+                      <img class=" img-fluid col-6" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true" >
+                      <ul class=" col-6">
+                        <li class=" d-flex  justify-content-between align-items-center">
+                          <p>#1</p>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                         </button>
+                        </li>
+                        <li>Admin</li>
+                        <li class="fz-24">Emir Wicks</li>
+                        <li class="c-lightGray">emir.wicks@mail.com</li>
+                        <li class="d-flex justify-content-between align-items-center">
+                          <span class="bg-primary"> verified</span>
+                          <a href="#" class="material-icons text-secondary">
+                          keyboard_arrow_up
+                          </a></li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn bg-white bd-color-success text-success font-weight-bold pt-1 pb-1 pl-4 pr-4 hover-success-bgChange" data-dismiss="modal">Deactivate</button>
+                      <button type="button" class="btn btn-secondary font-weight-bold pt-1 pb-1 pl-4 pr-4">Edit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </tr>
+            <tr>
+              <th scope="row">#2</th>
+              <td>Zaina Goldsmith</td>
+              <td>zaina.goldsmith@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+               <!-- Modal -->
+               <div class="modal fade" id="Admin1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content ">
+                    
+                    <div class="modal-header row mg-0 pd-4">
+                      <img class=" img-fluid col-6" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true" >
+                      <ul class=" col-6">
+                        <li class=" d-flex  justify-content-between align-items-center">
+                          <p>#1</p>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                         </button>
+                        </li>
+                        <li>Admin</li>
+                        <li class="fz-24">Emir Wicks</li>
+                        <li class="c-lightGray">emir.wicks@mail.com</li>
+                        <li class="d-flex justify-content-between align-items-center">
+                          <span class="bg-primary"> verified</span>
+                          <a href="#" class="material-icons text-secondary">
+                          keyboard_arrow_up
+                          </a></li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn bg-white bd-color-success text-success font-weight-bold pt-1 pb-1 pl-4 pr-4 hover-success-bgChange" data-dismiss="modal">Deactivate</button>
+                      <button type="button" class="btn btn-secondary font-weight-bold pt-1 pb-1 pl-4 pr-4">Edit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </tr>
+            <tr>
+              <th scope="row">#3</th>
+              <td>Mahima Lopez</td>
+              <td>Mahima.Lopez@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">#4</th>
+              <td>Pharrell Murray</td>
+              <td>Pharrell.Murray@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">#5</th>
+              <td>Annika Mcbride</td>
+              <td>Annika.Mcbride@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">#6</th>
+              <td>Fatimah Clark</td>
+              <td>Fatimah.Clark@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">#7</th>
+              <td>Klaudia Rhodes</td>
+              <td>Klaudia.Rhodes@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">#8</th>
+              <td>Tillie Lucero</td>
+              <td>Tillie.Lucero@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">#9</th>
+              <td>Sabrina Stephenson</td>
+              <td>Sabrina.Stephenson@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">#10</th>
+              <td>Annie Smith</td>
+              <td>Annie.Smith@mail.com</td>
+              <td>Yes</td>
+              <td class="d-flex justify-content-between">
+                <!-- Button trigger modal -->
+                <a href="#" class="material-icons" data-toggle="modal" data-target="#Admin1"> 
+                  visibility
+                  </a>
+                  <a href="#" data-toggle="modal" data-target="#EditAdmin"  class="material-icons">
+                  create
+                  </a>
+              </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+      
       <!-- Modal-EditNewAdmin -->
       <div class="modal fade" id="EditAdmin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">

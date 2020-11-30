@@ -1,6 +1,7 @@
 
 @import "bootstrap/bootstrap";
 
+
 //變數
 @import "variable";
 //全站設定
@@ -10,7 +11,7 @@
 
 //layout
 @import  "layout/sidebar";
-
+@import "layout/navbar";
 
 //pages index
 @import "index/admin";

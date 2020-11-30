@@ -11,9 +11,8 @@
 </head>
 
 <body>
- 
-      <div class="sidebar pt-4 pb-4 position-fixed   bg-primary  d-flex flex-column  justify-content-between  ">
-        <div class="sidebar-content">
+      <div class="sidebar pt-4 pb-4    bg-primary  d-flex flex-column  justify-content-between  ">
+        <div class="sidebar-content ">
           <h1 class=" mb-4 pl-4">
             <a class="logo d-block " href="#index.html">
               logo
@@ -74,7 +73,67 @@
           </ul>
         </div>
       </div>
-      <div class="ml-32">
+      <div class="navbar pt-4 pb-4    bg-primary  d-none  ">
+        <div class="navbar-content ">
+          <h1 class="mr-0 mb-4 ">
+            <a class="navbarLogo d-block justify-content-around " href="#index.html">
+              logo
+            </a>
+          </h1>
+          <ul class="navmar-item list-group flex-row justify-content-between" id="list-tab" role="tablist">
+            <li class="mb-2 ">
+              <a class=" d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary pl-4 pt-1 pb-1 " id="list-Dashboard-list" data-toggle="list" href="#list-Dashboard" role="tab" aria-controls="Dashboard">
+                <span class="material-icons mr-2">
+                insert_chart
+                </span></a>
+            </li>
+            <li class="mb-2 ">
+              <a class=" d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary  pt-1 pb-1 " id="list-Question-list" data-toggle="list" href="#list-Question" role="tab" aria-controls="Question">
+                <span class="material-icons mr-2">
+                  forum
+                </span></a>
+            </li>
+            <li class="mb-2" >
+              <a  class=" active d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary  pt-1 pb-1 " id="list-Assignment-list active"  data-toggle="list" href="#list-Assignment" role="tab" aria-controls="Assignment">
+                <span class="material-icons mr-2">
+                assignment
+                </span>
+                </a>
+            </li>
+            <li class="mb-2">
+              <a class=" d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary  pt-1 pb-1 " id="list-Course-list" data-toggle="list" href="#list-Course" role="tab" aria-controls="Course">
+                <span class="material-icons mr-2">
+                video_library
+                </span>
+                </a>
+            </li>
+            <li class="mb-2">
+              <a class=" d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary  pt-1 pb-1 " id="list-Admin-list" data-toggle="list" href="#list-Admin" role="tab" aria-controls="Admin">
+                <span class="material-icons mr-2">
+                supervisor_account
+                </span>
+                </a>
+            </li>
+            <li class="mb-2">
+              <a class="d-flex c-dark bd-left-4 bd-solid bd-color-primary  bg-primary  pt-1 pb-1 " id="list-Course-list" data-toggle="list" href="#list-Course" role="tab" aria-controls="Course">
+                <span class="material-icons mr-2">
+                settings
+                </span>
+                </a>
+            </li>
+    
+          </ul>
+        </div>
+        
+        <div class="sidebar-footer d-flex justify-content-center">
+          <img class="sidebar-footer-img" src="assets/images/andychen.jpeg">
+          <ul class="ml-2 ">
+            <li>Andy Chen</li>
+            <li class="fz-14 c-lightGray">andy0401@mail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="Main ">
       
       <%- contents %>
       </div>
