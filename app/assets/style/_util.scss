@@ -9,7 +9,9 @@
 .fz-16{
     font-size: 16px;
 }
-
+.fz-20{
+    font-size: 20px;
+}
 .fz-24{
     font-size: 24px;
 }
@@ -149,6 +151,9 @@
 .bd-color-success{
     border-color:$success !important;
 }
+.bd-color-info{
+    border-color:$info !important;
+}
 //盒模型
 .bd-sizing{
     box-sizing: border-box;
@@ -163,6 +168,11 @@
     border: 1px solid $white !important;
     color:$white !important;  
     background-color: $success !important;
+ }
+ .hover-secondary-bgChange:hover{
+    border: 1px solid $white !important;
+    color:$white !important;  
+    background-color: $secondary !important;
  }
 
  .active-primary:active{
