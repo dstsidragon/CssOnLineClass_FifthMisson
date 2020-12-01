@@ -8395,6 +8395,9 @@ body {
 .mg-0 {
   margin: 0; }
 
+.mt-1 {
+  margin-top: 8px !important; }
+
 .ml-1 {
   margin-left: 8px !important; }
 
@@ -8418,6 +8421,15 @@ body {
 
 .mb-4 {
   margin-bottom: 32px !important; }
+
+.mb-5 {
+  margin-bottom: 40px !important; }
+
+.mb-10 {
+  margin-bottom: 80px; }
+
+.mb-15 {
+  margin-bottom: 120px; }
 
 .mb-20 {
   margin-bottom: 160px; }
@@ -8584,7 +8596,9 @@ body {
   .navbar {
     display: block !important; }
   .menuTitle {
-    margin-left: 0 !important; } }
+    margin-left: 0 !important; }
+  .navmar-mobile.bg-primary:hover {
+    background-color: transparent !important; } }
 
 .down {
   width: 12px;
