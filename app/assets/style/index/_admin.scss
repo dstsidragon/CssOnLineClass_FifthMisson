@@ -20,6 +20,16 @@
   color:$success !important;  
 }
 
+
+
+
+
+
+@media (min-width:992px){
+  .visibilityIcon{
+    margin-right: 0px !important;
+  }
+}
 @media (max-width:576px){
   .table-mobile{
     width: 100% !important;
