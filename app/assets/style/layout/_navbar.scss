@@ -8,15 +8,17 @@
     white-space: nowrap;
 }
 
-
+@media(min-width:768px){
+    .menuTitle{
+        margin-left: 64px !important;
+    }
+}
 
 @media(max-width:570px){
     .navbar{
         display:block !important;
     }
-    .menuTitle{
-        margin-left: 0 !important;
-    }
+    
     .navmar-mobile.bg-primary:hover{
         background-color:transparent !important;
         
